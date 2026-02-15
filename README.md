@@ -95,7 +95,7 @@ The spider outputs the following fields:
 | `title` | Article title |
 | `url` | Source URL |
 | `publisher` | Website/publisher name |
-| `word_count` | Number of words in the text |
+| `word_count` | Word count (calculated by whitespace splitting) |
 | `lang` | Detected language code |
 | `lang_score` | Language detection confidence score |
 | `source_type` | Content type (default: `news`) |
