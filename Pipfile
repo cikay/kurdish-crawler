@@ -10,6 +10,7 @@ fasttext = "*"
 scrapy = "*"
 dotenv = "*"
 pandas = "*"
+trafilatura = "*"
 
 [dev-packages]
 
