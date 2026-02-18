@@ -71,7 +71,7 @@ class ArticleExtractor:
         loader.add_value("text", text)
         loader.add_value("title", output.get("title"))
         loader.add_value("url", url)
-        loader.add_value("publisher", output.get("sitename"))
+        loader.add_value("publisher", output.get("hostname"))
         loader.add_value("word_count", word_count)
         loader.add_value("lang", lang)
         loader.add_value("lang_score", lang_score)
