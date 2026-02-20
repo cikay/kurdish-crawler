@@ -67,7 +67,7 @@ DOMAINS = [
 ]
 ```
 
-### Run the spider
+### Run the app
 
 ```bash
 python main.py --output output.csv
