@@ -35,7 +35,7 @@ def run_crawler(output_path: str, content_extractor: ContentExtractorProtocol) -
             output_path: {
                 "format": feed_format,
                 "encoding": "utf-8",
-                "overwrite": True,
+                "overwrite": False,
             }
         },
         priority="cmdline",
