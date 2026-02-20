@@ -15,7 +15,7 @@ class RecursiveSpider(scrapy.Spider):
 
     def __init__(
         self,
-        content_extractor: Optional[ContentExtractorProtocol] = None,
+        content_extractor: ContentExtractorProtocol,
         *args,
         **kwargs,
     ):
